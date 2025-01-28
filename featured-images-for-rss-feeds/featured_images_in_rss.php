@@ -5,12 +5,12 @@
  * Plugin URI:  http://wordpress.org/plugins/featured-images-for-rss-feeds/
  * Description: Outputs images in your RSS feed to Mailchimp, Infusionsoft, Hubspot, and other services that use RSS feed data for content marketing.
  * Author:      5 Star Plugins
- * Version:     1.6.3
+ * Version:     1.6.4
  * Author URI:  https://5starplugins.com/
  * Text Domain: featured-images-for-rss-feeds
  *
  */
-define( 'FIRSS_VERSION', '1.6.3' );
+define( 'FIRSS_VERSION', '1.6.4' );
 define( 'FIRSS_PLUGIN_URL', plugins_url( '/', __FILE__ ) );
 // __Freemius
 /**
@@ -634,7 +634,7 @@ if ( !function_exists( 'firss_init' ) ) {
     }
 
     /**
-     * Styles for the plugin settins page.
+     * Styles for the plugin settings page.
      *
      * @since 1.4
      */

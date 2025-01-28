@@ -5,7 +5,7 @@ Tags: featured images in rss, rss images, mailchimp, rss campaigns, content mark
 Requires at least: 2.9
 Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.6.3
+Stable tag: 1.6.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -186,9 +186,12 @@ Please submit a [rating and review](https://wordpress.org/support/plugin/feature
 4. A sad example of a plain RSS feed with no images, because they aren't using this plugin. Don't have sad RSS feeds, use this plugin!
 
 == Upgrade Notice ==
-* Please update: Updated Freemius SDK to v2.9
+* Please update: Updated Freemius SDK to latest version.
 
 == Changelog ==
+= 1.6.4 =
+* Updated Freemius SDK to latest version.
+
 = 1.6.3 =
 * Updated Freemius SDK to v2.9
 
