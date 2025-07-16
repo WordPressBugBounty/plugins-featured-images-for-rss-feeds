@@ -3,9 +3,9 @@ Contributors: 5starplugins
 Donate link: https://5starplugins.com/
 Tags: featured images in rss, rss images, mailchimp, rss campaigns, content marketing
 Requires at least: 2.9
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 1.6.4
+Stable tag: 1.6.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -179,16 +179,24 @@ Please submit a [rating and review](https://wordpress.org/support/plugin/feature
 
 (Have an issue? Post to the support forums before leaving a poor review.)
 
+= How can I report security issues? =
+
+You can report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team help validate, triage and handle any security vulnerabilities. [Report a security vulnerability.](https://patchstack.com/database/wordpress/plugin/featured-images-for-rss-feeds/vdp)
+
 == Screenshots ==
 1. An example RSS feed with images included to the left with the text wrapping to the right, medium sized.
 2. An example RSS feed with featured images included above the text, full sized.
 3. A screenshot of the plugin's options screen.
 4. A sad example of a plain RSS feed with no images, because they aren't using this plugin. Don't have sad RSS feeds, use this plugin!
 
+
 == Upgrade Notice ==
 * Please update: Updated Freemius SDK to latest version.
 
 == Changelog ==
+= 1.6.5 =
+* Updated Freemius SDK to latest version.
+
 = 1.6.4 =
 * Updated Freemius SDK to latest version.
 
@@ -281,8 +289,3 @@ Please submit a [rating and review](https://wordpress.org/support/plugin/feature
 * Update: Translation ready, we're accepting translated pot files.
 * New: Now using Freemius for opt-in user usage data and better support, feature requests.
 * New: Premium Version now available with media and image tag support, custom images sizes, exclude categories, pre and post feed content, and more. Free trial available, and instant upgrades on checkout.
-
-== Upgrade Notice ==
-
-= 1.5.9 =
-* Updated Freemius SDK with improvements and security fixes, bump WP compatibility to v5.9.1. Update today!

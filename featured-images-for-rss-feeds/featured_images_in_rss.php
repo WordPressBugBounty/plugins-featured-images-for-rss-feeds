@@ -5,12 +5,12 @@
  * Plugin URI:  http://wordpress.org/plugins/featured-images-for-rss-feeds/
  * Description: Outputs images in your RSS feed to Mailchimp, Infusionsoft, Hubspot, and other services that use RSS feed data for content marketing.
  * Author:      5 Star Plugins
- * Version:     1.6.4
+ * Version:     1.6.5
  * Author URI:  https://5starplugins.com/
  * Text Domain: featured-images-for-rss-feeds
  *
  */
-define( 'FIRSS_VERSION', '1.6.4' );
+define( 'FIRSS_VERSION', '1.6.5' );
 define( 'FIRSS_PLUGIN_URL', plugins_url( '/', __FILE__ ) );
 // __Freemius
 /**
@@ -48,18 +48,6 @@ if ( !function_exists( 'fifrf_fs' ) ) {
 }
 // Init Freemius.
 fifrf_fs();
-fifrf_fs()->add_filter(
-    'connect_message_on_update',
-    'firss_freemius_update_message',
-    10,
-    6
-);
-fifrf_fs()->add_filter(
-    'connect_message',
-    'firss_freemius_new_message',
-    10,
-    6
-);
 // __End Freemius.
 add_action( 'plugins_loaded', 'firss_init' );
 add_action( 'admin_footer', 'firss_styles' );
@@ -572,48 +560,6 @@ if ( !function_exists( 'firss_init' ) ) {
             __( 'Disable Responsive Images', 'featured-images-for-rss-feeds' ) => __( 'Fix broken images in certain readers and Mailchimp preview.', 'featured-images-for-rss-feeds' ),
         );
         return $features;
-    }
-
-    /**
-     * The message for current plugin users.
-     */
-    function firss_freemius_update_message(
-        $message,
-        $user_first_name,
-        $plugin_title,
-        $user_login,
-        $site_link,
-        $freemius_link
-    ) {
-        return sprintf(
-            __( 'Hi %1$s, please help us improve %2$s! If you opt-in, some data about your usage will be sent to our platform Freemius. If you skip this, that\'s okay, the %2$s will still work just fine.', 'featured-images-for-rss-feeds' ),
-            $user_first_name,
-            '<b>' . $plugin_title . '</b>',
-            '<b>' . $user_login . '</b>',
-            $site_link,
-            $freemius_link
-        );
-    }
-
-    /**
-     * The message for new plugin users.
-     */
-    function firss_freemius_new_message(
-        $message,
-        $user_first_name,
-        $plugin_title,
-        $user_login,
-        $site_link,
-        $freemius_link
-    ) {
-        return sprintf(
-            __( 'Hi %1$s, in order to enjoy all of the features, functionality and enable a free trial of premium version, %2$s needs to connect your user, %3$s at %4$s, to our platform Freemius.', 'featured-images-for-rss-feeds' ),
-            $user_first_name,
-            '<b>' . $plugin_title . '</b>',
-            '<b>' . $user_login . '</b>',
-            $site_link,
-            $freemius_link
-        );
     }
 
     /**
