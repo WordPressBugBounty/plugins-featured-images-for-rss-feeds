@@ -5,12 +5,12 @@
  * Plugin URI:  http://wordpress.org/plugins/featured-images-for-rss-feeds/
  * Description: Outputs images in your RSS feed to Mailchimp, Infusionsoft, Hubspot, and other services that use RSS feed data for content marketing.
  * Author:      5 Star Plugins
- * Version:     1.6.5
+ * Version:     1.7.1
  * Author URI:  https://5starplugins.com/
  * Text Domain: featured-images-for-rss-feeds
  *
  */
-define( 'FIRSS_VERSION', '1.6.5' );
+define( 'FIRSS_VERSION', '1.7.1' );
 define( 'FIRSS_PLUGIN_URL', plugins_url( '/', __FILE__ ) );
 // __Freemius
 /**
@@ -109,7 +109,7 @@ if ( !function_exists( 'firss_init' ) ) {
     function firss_load_plugin_textdomain() {
         $locale = apply_filters( 'plugin_locale', get_locale(), 'featured-images-for-rss-feeds' );
         load_textdomain( 'featured-images-for-rss-feeds', WP_LANG_DIR . '/plugins/featured-images-in-rss-' . $locale . '.mo' );
-        load_plugin_textdomain( 'featured-images-for-rss-feeds', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+        load_plugin_textdomain( 'featured-images-for-rss-feeds', false, dirname( plugin_basename( __FILE__ ) ) . '/includes/languages/' );
     }
 
     /**
@@ -137,8 +137,8 @@ if ( !function_exists( 'firss_init' ) ) {
      */
     function firss_create_parent_menu() {
         add_menu_page(
-            'Featured Images In RSS',
-            'Featured Images In RSS',
+            __( 'Featured Images In RSS', 'featured-images-for-rss-feeds' ),
+            __( 'Featured Images In RSS', 'featured-images-for-rss-feeds' ),
             'manage_options',
             'featured-images-for-rss-feeds',
             'firss_settings_page',
@@ -177,7 +177,9 @@ if ( !function_exists( 'firss_init' ) ) {
         echo plugins_url( 'includes/images/banner.jpg', __FILE__ );
         ?>" width="940"></a>
 			</div>
-		<h1 class="header-title">Featured Images in RSS</h1>
+		<h1 class="header-title"><?php 
+        echo __( 'Featured Images in RSS', 'featured-images-for-rss-feeds' );
+        ?></h1>
 
 		<form method="post" action="options.php" class="firss-settings-form">
 
@@ -309,7 +311,7 @@ if ( !function_exists( 'firss_init' ) ) {
 		    </table>
 
 		    <p class="submit"><input type="submit" name="submit-bpu" class="button-primary" value="<?php 
-        _e( 'Save Changes' );
+        _e( 'Save Changes', 'featured-images-for-rss-feeds' );
         ?>" /></p>
 
 			<?php 
@@ -344,6 +346,53 @@ if ( !function_exists( 'firss_init' ) ) {
 		</div>
 	</div>
 <?php 
+        // New 30 Day Review Request
+        add_action( 'admin_notices', function () {
+            if ( !current_user_can( 'manage_options' ) ) {
+                return;
+            }
+            $user_id = get_current_user_id();
+            $meta_key_base = 'firss_review_notice';
+            $first_seen = get_user_meta( $user_id, "{$meta_key_base}_first_seen", true );
+            $dismissed = get_user_meta( $user_id, "{$meta_key_base}_dismissed", true );
+            // Record first visit timestamp
+            if ( !$first_seen ) {
+                update_user_meta( $user_id, "{$meta_key_base}_first_seen", time() );
+                return;
+            }
+            // Wait 30 days from first seen
+            if ( time() - $first_seen < 30 * DAY_IN_SECONDS ) {
+                return;
+            }
+            if ( $dismissed === 'dismissed' ) {
+                return;
+            }
+            // Optional: only show on plugin settings page
+            if ( !isset( $_GET['page'] ) || $_GET['page'] !== 'featured-images-for-rss-feeds' ) {
+                return;
+            }
+            // Handle dismiss/remind actions
+            if ( isset( $_GET['firss_review_action'] ) ) {
+                if ( $_GET['firss_review_action'] === 'dismiss' ) {
+                    update_user_meta( $user_id, "{$meta_key_base}_dismissed", 'dismissed' );
+                } elseif ( $_GET['firss_review_action'] === 'remind' ) {
+                    update_user_meta( $user_id, "{$meta_key_base}_dismissed", time() );
+                }
+                wp_redirect( remove_query_arg( 'firss_review_action' ) );
+                exit;
+            }
+            // Handle 7-day reminder delay
+            if ( is_numeric( $dismissed ) && time() - $dismissed < 7 * DAY_IN_SECONDS ) {
+                return;
+            }
+            $review_url = 'https://wordpress.org/support/plugin/featured-images-for-rss-feeds/reviews/?rate=5#new-post';
+            $remind_url = add_query_arg( 'firss_review_action', 'remind' );
+            $dismiss_url = add_query_arg( 'firss_review_action', 'dismiss' );
+            echo '<div class="notice notice-success is-dismissible">';
+            echo sprintf( __( '<strong>Enjoying Featured Images In RSS?</strong> Please <a href="%s" target="_blank">leave a 5-star review</a> to support us! 🙌', 'featured-images-for-rss-feeds' ), esc_url( $review_url ) );
+            echo '<p><a href="' . esc_url( $remind_url ) . '">' . __( 'Remind me later', 'featured-images-for-rss-feeds' ) . '</a> | <a href="' . esc_url( $dismiss_url ) . '">' . __( 'Dismiss', 'featured-images-for-rss-feeds' ) . '</a></p>';
+            echo '</div>';
+        } );
     }
 
     /**
@@ -351,7 +400,7 @@ if ( !function_exists( 'firss_init' ) ) {
      */
     function firss_add_plugin_action_links(  $links  ) {
         return array_merge( array(
-            'settings' => '<a href="' . get_bloginfo( 'wpurl' ) . '/wp-admin/admin.php?page=featured-images-for-rss-feeds">Settings</a>',
+            'settings' => '<a href="' . get_bloginfo( 'wpurl' ) . '/wp-admin/admin.php?page=featured-images-for-rss-feeds">' . __( 'Settings', 'featured-images-for-rss-feeds' ) . '</a>',
         ), $links );
     }
 

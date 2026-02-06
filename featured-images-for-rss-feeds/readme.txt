@@ -5,7 +5,7 @@ Tags: featured images in rss, rss images, mailchimp, rss campaigns, content mark
 Requires at least: 2.9
 Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 1.6.5
+Stable tag: 1.7.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -189,11 +189,25 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 3. A screenshot of the plugin's options screen.
 4. A sad example of a plain RSS feed with no images, because they aren't using this plugin. Don't have sad RSS feeds, use this plugin!
 
-
 == Upgrade Notice ==
-* Please update: Updated Freemius SDK to latest version.
+* Please update! v1.7.1: Updated Freemius SDK to v2.13.0
+* v1.7:
+* New: Now supports external image URLs in media or enclosure tags.
+* Fixed: option to use only media tag image now removed the first image properly.
+* Updated: Check feed first before adding media namespace to prevent duplicates from triggering invalid feed warnings.
+* Updated: Added support for the following languages: Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese (Simplified), Japanese, Korean, Arabic, Turkish, Hindi, Polish, Swedish, Danish, Finnish, Greek, Czech, Hungarian, Thai, Hebrew
 
 == Changelog ==
+= 1.7.1 =
+* Updated Freemius SDK to v2.13.0
+
+= 1.7 =
+* New: Now supports external image URLs in media or enclosure tags.
+* Fixed: option to use only media tag image now removed the first image properly.
+* Updated: Check feed first before adding media namespace to prevent duplicates from triggering invalid feed warnings.
+* Updated: Added support for the following languages: Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese (Simplified), Japanese, Korean, Arabic, Turkish, Hindi, Polish, Swedish, Danish, Finnish, Greek, Czech, Hungarian, Thai, Hebrew
+* Updated: Freemius SDK to latest version.
+
 = 1.6.5 =
 * Updated Freemius SDK to latest version.
 
