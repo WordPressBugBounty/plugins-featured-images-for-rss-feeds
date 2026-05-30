@@ -5,12 +5,12 @@
  * Plugin URI:  http://wordpress.org/plugins/featured-images-for-rss-feeds/
  * Description: Outputs images in your RSS feed to Mailchimp, Infusionsoft, Hubspot, and other services that use RSS feed data for content marketing.
  * Author:      5 Star Plugins
- * Version:     1.7.1
+ * Version:     1.7.2
  * Author URI:  https://5starplugins.com/
  * Text Domain: featured-images-for-rss-feeds
  *
  */
-define( 'FIRSS_VERSION', '1.7.1' );
+define( 'FIRSS_VERSION', '1.7.2' );
 define( 'FIRSS_PLUGIN_URL', plugins_url( '/', __FILE__ ) );
 // __Freemius
 /**
@@ -25,21 +25,22 @@ if ( !function_exists( 'fifrf_fs' ) ) {
             // Include Freemius SDK.
             require_once dirname( __FILE__ ) . '/includes/freemius/start.php';
             $fifrf_fs = fs_dynamic_init( array(
-                'id'              => '195',
-                'slug'            => 'featured-images-for-rss-feeds',
-                'public_key'      => 'pk_9ea1864d86f1a7f3c11a487405043',
-                'has_addons'      => false,
-                'has_paid_plans'  => true,
-                'has_affiliation' => 'all',
-                'menu'            => array(
+                'id'               => '195',
+                'slug'             => 'featured-images-for-rss-feeds',
+                'public_key'       => 'pk_9ea1864d86f1a7f3c11a487405043',
+                'has_addons'       => false,
+                'has_paid_plans'   => true,
+                'has_affiliation'  => 'all',
+                'menu'             => array(
                     'slug' => 'featured-images-for-rss-feeds',
                 ),
-                'trial'           => array(
+                'trial'            => array(
                     'days'               => 14,
                     'is_require_payment' => false,
                 ),
-                'is_premium'      => false,
-                'is_live'         => true,
+                'is_premium'       => false,
+                'is_live'          => true,
+                'is_org_compliant' => true,
             ) );
         }
         return $fifrf_fs;

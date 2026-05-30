@@ -5,7 +5,7 @@ Tags: featured images in rss, rss images, mailchimp, rss campaigns, content mark
 Requires at least: 2.9
 Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 1.7.1
+Stable tag: 1.7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,6 +18,12 @@ Get images in your RSS feed instantly for free. Output blog featured images to M
 Featured Images In RSS was built for content marketers. Easy set-up with minimal configuration to get up and running in minutes.
 
 This plugin is forever free. Upgrade to Premium to unlock powerful features for content marketing. Developed and supported in the United States by 5 Star Plugins.
+
+View our video overview:
+
+[youtube https://www.youtube.com/watch?v=hx-IuDMoBUs]
+
+[or use this YouTube link](https://www.youtube.com/watch?v=hx-IuDMoBUs)
 
 Free Features:
 
@@ -190,14 +196,13 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 4. A sad example of a plain RSS feed with no images, because they aren't using this plugin. Don't have sad RSS feeds, use this plugin!
 
 == Upgrade Notice ==
-* Please update! v1.7.1: Updated Freemius SDK to v2.13.0
-* v1.7:
-* New: Now supports external image URLs in media or enclosure tags.
-* Fixed: option to use only media tag image now removed the first image properly.
-* Updated: Check feed first before adding media namespace to prevent duplicates from triggering invalid feed warnings.
-* Updated: Added support for the following languages: Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese (Simplified), Japanese, Korean, Arabic, Turkish, Hindi, Polish, Swedish, Danish, Finnish, Greek, Czech, Hungarian, Thai, Hebrew
+* Please update! v1.7.2: Updated Freemius SDK to v2.13.1.
 
 == Changelog ==
+= 1.7.2 =
+* Updated Freemius SDK to v2.13.1.
+* Maintenance: Version bump and readme updates (Upgrade Notice and Changelog refresh).
+
 = 1.7.1 =
 * Updated Freemius SDK to v2.13.0
 
