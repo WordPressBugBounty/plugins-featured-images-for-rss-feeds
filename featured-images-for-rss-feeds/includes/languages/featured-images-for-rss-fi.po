@@ -1,0 +1,384 @@
+# Copyright (C) 2026 5 Star Plugins
+# This file is distributed under the same license as the Featured Images in RSS for Mailchimp & More plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Featured Images in RSS for Mailchimp & More 1.7.3\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/featured-images-for-rss\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-25T05:52:25+00:00\n"
+"PO-Revision-Date: 2026-08-25 05:53+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: featured-images-for-rss-feeds\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: fi\n"
+
+#: featured_images_in_rss.php
+#. Plugin Name of the plugin
+msgid "Featured Images in RSS for Mailchimp & More"
+msgstr "Esittelykuvat RSS-syötteessä Mailchimpille ja muille"
+
+#: featured_images_in_rss.php
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/featured-images-for-rss-feeds/"
+msgstr "http://wordpress.org/plugins/featured-images-for-rss-feeds/"
+
+#: featured_images_in_rss.php
+#. Description of the plugin
+msgid ""
+"Outputs images in your RSS feed to Mailchimp, Infusionsoft, Hubspot, and "
+"other services that use RSS feed data for content marketing."
+msgstr ""
+"Tulostaa kuvia RSS-syötteeseesi Mailchimpiin, Infusionsoftiin, Hubspotiin "
+"ja muihin palveluihin, jotka käyttävät RSS-syötedataa sisältömarkkinointiin."
+
+#: featured_images_in_rss.php
+#. Author of the plugin
+msgid "5 Star Plugins"
+msgstr "5 Star Plugins"
+
+#: featured_images_in_rss.php
+#. Author URI of the plugin
+msgid "https://5starplugins.com/"
+msgstr "https://5starplugins.com/"
+
+#: featured_images_in_rss.php:152
+msgid "Featured Images In RSS"
+msgstr "Esittelykuvat RSS:ssä"
+
+#: featured_images_in_rss.php:185
+msgid "Featured Images in RSS"
+msgstr "Esittelykuvat RSS-syötteessä"
+
+#: featured_images_in_rss.php:196
+msgid "RSS image size:"
+msgstr "RSS-kuvan koko:"
+
+#: featured_images_in_rss.php:208
+msgid "Width"
+msgstr "Leveys"
+
+#: featured_images_in_rss.php:210
+msgid "Height"
+msgstr "Korkeus"
+
+#: featured_images_in_rss.php:215
+#, php-format
+msgid ""
+"(Looking for other sizes? Set the size of images for your website globally "
+"using <a href=\"%1$s\" target=\"_blank\">Media Options</a>. Then <a "
+"href=\"%2$s\" target=\"_blank\">Regenerate Thumbnails</a> for it to take "
+"effect.)"
+msgstr ""
+"(Etsitkö muita kokoja? Aseta verkkosivustosi kuvien koko globaalisti "
+"käyttämällä <a href=\"%1$s\" target=\"_blank\">Media-asetuksia</a>. Sen "
+"jälkeen <a href=\"%2$s\" target=\"_blank\">luo pikkukuvat uudelleen</a>, "
+"jotta muutos tulee voimaan.)"
+
+#: featured_images_in_rss.php:221
+msgid "RSS image alignment:"
+msgstr "RSS-kuvan tasaus:"
+
+#: featured_images_in_rss.php:224
+msgid "Image Left Above Text"
+msgstr "Kuva vasemmalla, teksti yläpuolella"
+
+#: featured_images_in_rss.php:225
+msgid "Image Centered Above Text"
+msgstr "Kuva keskitettynä tekstin yläpuolelle"
+
+#: featured_images_in_rss.php:226
+msgid "Image Left Text Wraps"
+msgstr "Kuva vasemmalla, teksti kiertää"
+
+#: featured_images_in_rss.php:227
+msgid "Image Right Text Wraps"
+msgstr "Kuva oikealla, teksti kiertää"
+
+#: featured_images_in_rss.php:232
+msgid "RSS image to text padding:"
+msgstr "RSS-kuvan ja tekstin väli:"
+
+#: featured_images_in_rss.php:238
+msgid "Clickable images:"
+msgstr "Klikattavat kuvat:"
+
+#: featured_images_in_rss.php:241
+msgid "Select to enable linked images to posts."
+msgstr "Valitse tämä, jos haluat ottaa käyttöön linkitetyt kuvat artikkeleihin."
+
+#: featured_images_in_rss.php:242
+msgid "Outputs additional HTML surrounding the image."
+msgstr "Tulostaa kuvan ympärille lisä-HTML:n."
+
+#: featured_images_in_rss.php:250
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: featured_images_in_rss.php:260
+#, php-format
+msgid ""
+"If you like this plugin, please <a href=\"%s\" target=_blank>Rate and "
+"Review</a> it so others can benefit too."
+msgstr ""
+"Jos pidät tästä lisäosasta, käy antamassa sille <a href=\"%s\" "
+"target=_blank>arvostelu ja arvio</a>, jotta muutkin hyötyvät siitä."
+
+#: featured_images_in_rss.php:261
+#, php-format
+msgid ""
+"Still not seeing images in your feed? Verify featured images are set. Clear "
+"your browser and any server caches. Using Feedburner? Be sure to also <a "
+"href=\"%s\" target=_blank>Ping Feedburner</a> so it refreshes your feed."
+msgstr ""
+"Etkö vieläkään näe kuvia syötteessäsi? Varmista, että esittelykuvat on "
+"asetettu. Tyhjennä selaimesi ja palvelimen välimuistit. Käytätkö "
+"Feedburneria? Muista myös <a href=\"%s\" target=_blank>Ping Feedburner</a>, "
+"jotta se päivittää syötteesi."
+
+#: featured_images_in_rss.php:262
+#, php-format
+msgid ""
+"To view your site’s raw RSS feed, click here: <a href=\"%s/feed/\" "
+"target=_blank>/feed/</a>"
+msgstr ""
+"Voit tarkastella sivustosi raakaa RSS-syötettä napsauttamalla tästä: <a "
+"href=\"%s/feed/\" target=_blank>/feed/</a>"
+
+#: featured_images_in_rss.php:263
+#, php-format
+msgid ""
+"Free and premium FAQ and Support contact form available at <a href=\"%s\" "
+"target=_blank>support.5starplugins.com</a>"
+msgstr ""
+"Ilmainen ja maksullinen UKK sekä tukiyhteydenottolomake ovat saatavilla "
+"osoitteessa <a href=\"%s\" target=_blank>support.5starplugins.com</a>"
+
+#: featured_images_in_rss.php:264
+#, php-format
+msgid ""
+"Developed and supported by <a href=\"%s\" target=_blank>5 Star Plugins</a> "
+"in San Diego, CA"
+msgstr ""
+"Kehittänyt ja tukee <a href=\"%s\" target=_blank>5 Star Plugins</a> San "
+"Diegossa, Kaliforniassa"
+
+#: featured_images_in_rss.php:312
+#, php-format
+msgid ""
+"<strong>Enjoying Featured Images In RSS?</strong> Please <a href=\"%s\" "
+"target=\"_blank\">leave a 5-star review</a> to support us! 🙌"
+msgstr ""
+"<strong>Pidätkö Featured Images In RSS:stä?</strong> Jätäthän <a "
+"href=\"%s\" target=\"_blank\">5 tähden arvostelun</a> tueksemme! 🙌"
+
+#: featured_images_in_rss.php:315
+msgid "Remind me later"
+msgstr "Muistuta minua myöhemmin"
+
+#: featured_images_in_rss.php:315
+msgid "Dismiss"
+msgstr "Hylkää"
+
+#: featured_images_in_rss.php:331
+msgid "Settings"
+msgstr "Asetukset"
+
+#: featured_images_in_rss.php:342
+msgid "Please rate and review"
+msgstr "Arvostele ja jätä arvio"
+
+#: featured_images_in_rss.php:401
+#, php-format
+msgid "Unlock Premium Features%s"
+msgstr "Avaa Premium-ominaisuudet%s"
+
+#: featured_images_in_rss.php:401
+#: includes/premium/premium.php:195
+msgid "(Free Trial)"
+msgstr "(Ilmainen kokeilu)"
+
+#: featured_images_in_rss.php:413
+#: featured_images_in_rss.php:443
+msgid "Upgrade Now"
+msgstr "Päivitä nyt"
+
+#: featured_images_in_rss.php:420
+msgid "14 Day Free Trial"
+msgstr "14 päivän ilmainen kokeilu"
+
+#: featured_images_in_rss.php:509
+msgid "Premium Support"
+msgstr "Premium-tuki"
+
+#: featured_images_in_rss.php:509
+msgid "Get help from WordPress experts based in the US."
+msgstr "Saat apua Yhdysvalloissa toimivilta WordPress-asiantuntijoilta."
+
+#: featured_images_in_rss.php:510
+msgid "Custom Sizing"
+msgstr "Mukautettu koko"
+
+#: featured_images_in_rss.php:510
+msgid "Define your custom image size for RSS feeds."
+msgstr "Määritä mukautettu kuvakokosi RSS-syötteitä varten."
+
+#: featured_images_in_rss.php:511
+msgid "Media and Enclosure Tags"
+msgstr "Media- ja enclosure-tunnisteet"
+
+#: featured_images_in_rss.php:511
+msgid "Place images anywhere in email design."
+msgstr "Sijoita kuvia mihin tahansa sähköpostin ulkoasuun."
+
+#: featured_images_in_rss.php:512
+msgid "Media Tag Images Only"
+msgstr "Vain media-tunnisteen kuvat"
+
+#: featured_images_in_rss.php:512
+msgid "Fix duplicate images issues when using media tags."
+msgstr "Korjaa päällekkäisten kuvien ongelmat käytettäessä media-tunnisteita."
+
+#: featured_images_in_rss.php:513
+msgid "Feature Body Image"
+msgstr "Ominaisuuden pääkuva"
+
+#: featured_images_in_rss.php:513
+msgid "Use the first body image in RSS feeds."
+msgstr "Käytä ensimmäistä pääkuvaa RSS-syötteissä."
+
+#: featured_images_in_rss.php:514
+msgid "In-Feed Ads"
+msgstr "Syötteen sisäiset mainokset"
+
+#: featured_images_in_rss.php:514
+msgid "Insert text or HTML messages, ads, or links in the feed."
+msgstr "Lisää syötteeseen teksti- tai HTML-viestejä, mainoksia tai linkkejä."
+
+#: featured_images_in_rss.php:515
+#: includes/premium/premium.php:256
+msgid "Exclude Categories"
+msgstr "Sulje pois kategoriat"
+
+#: featured_images_in_rss.php:515
+msgid "Exclude unwanted RSS content such as the \"Featured\" category."
+msgstr "Sulje pois ei-toivottu RSS-sisältö, kuten ”Esittelyssä”-kategoria."
+
+#: featured_images_in_rss.php:516
+msgid "Feed Delay"
+msgstr "Syötteen viive"
+
+#: featured_images_in_rss.php:516
+msgid "Time buffer to safeguard mistakes from new posts instantly broadcasting."
+msgstr ""
+"Aikaväli, joka suojaa uusien julkaisujen virheiltä ennen kuin ne lähetetään "
+"heti eteenpäin."
+
+#: featured_images_in_rss.php:517
+#: includes/premium/premium.php:228
+msgid "Disable Responsive Images"
+msgstr "Poista responsiiviset kuvat käytöstä"
+
+#: featured_images_in_rss.php:517
+msgid "Fix broken images in certain readers and Mailchimp preview."
+msgstr "Korjaa rikkinäiset kuvat tietyissä lukijoissa ja Mailchimp-esikatselussa."
+
+#: includes/premium/premium.php:129
+msgid "Click to select categories to exclude"
+msgstr "Napsauta valitaksesi suljettavat kategoriat"
+
+#: includes/premium/premium.php:195
+#, php-format
+msgid "Premium Features%s"
+msgstr "Premium-ominaisuudet%s"
+
+#: includes/premium/premium.php:198
+msgid "Use first image in body in RSS feed"
+msgstr "Käytä ensimmäistä kuvaa rungossa RSS-syötteessä"
+
+#: includes/premium/premium.php:201
+msgid "Enable first image"
+msgstr "Ota ensimmäinen kuva käyttöön"
+
+#: includes/premium/premium.php:202
+msgid "Use this option for themes that do not support Featured Images."
+msgstr "Käytä tätä vaihtoehtoa teemoissa, jotka eivät tue esittelykuvia."
+
+#: includes/premium/premium.php:207
+msgid "Media Tag"
+msgstr "Media-tunniste"
+
+#: includes/premium/premium.php:210
+msgid "Enable media tag images"
+msgstr "Ota media-tunnisteen kuvat käyttöön"
+
+#: includes/premium/premium.php:211
+msgid "Outputs post thumbnails inside the &lt;media:content ... &gt; tag"
+msgstr "Tulostaa julkaisun pikkukuvat &lt;media:content ... &gt; -tunnisteen sisään"
+
+#: includes/premium/premium.php:214
+msgid "Use only media tag images"
+msgstr "Käytä vain media-tunnisteen kuvia"
+
+#: includes/premium/premium.php:215
+msgid ""
+"If Media Tag is enabled, this can help prevent duplicate images by no "
+"longer prepending the post's featured image in the content/description."
+msgstr ""
+"Jos Media Tag on käytössä, tämä voi auttaa estämään kaksoiskuvia, koska "
+"julkaisun esittelykuvaa ei enää lisätä sisällön/kuvauksen alkuun."
+
+#: includes/premium/premium.php:220
+msgid "Enclosure Tag"
+msgstr "Enclosure-tunniste"
+
+#: includes/premium/premium.php:223
+msgid "Enable enclosure tag"
+msgstr "Ota enclosure-tunniste käyttöön"
+
+#: includes/premium/premium.php:224
+msgid "Outputs post thumbnails inside &lt;enclosure&gt; tags."
+msgstr "Tulostaa julkaisun pikkukuvat &lt;enclosure&gt;-tunnisteiden sisään."
+
+#: includes/premium/premium.php:231
+msgid "Disable responsive images under RSS feeds."
+msgstr "Poista responsiiviset kuvat käytöstä RSS-syötteissä."
+
+#: includes/premium/premium.php:235
+msgid "Pre-Feed Content"
+msgstr "Ennen syötettä näytettävä sisältö"
+
+#: includes/premium/premium.php:238
+#: includes/premium/premium.php:245
+msgid "HTML is allowed. This will display on every post."
+msgstr "HTML on sallittu. Tämä näkyy jokaisessa julkaisussa."
+
+#: includes/premium/premium.php:242
+msgid "Post-Feed Content"
+msgstr "Syötteen jälkeinen sisältö"
+
+#: includes/premium/premium.php:249
+msgid "Publish Delay"
+msgstr "Julkaisun viive"
+
+#: includes/premium/premium.php:251
+msgid "minute(s)"
+msgstr "minuutti(a)"
+
+#: includes/premium/premium.php:252
+msgid ""
+"Delays the publishing of the feed after post is published. Leave empty to "
+"publish immediately."
+msgstr ""
+"Viivästyttää syötteen julkaisemista sen jälkeen, kun julkaisu on julkaistu. "
+"Jätä tyhjäksi, jos haluat julkaista heti."
+
+#: includes/premium/premium.php:259
+msgid "Leave empty to display featured images in posts from all categories."
+msgstr ""
+"Jätä tyhjäksi, jos haluat näyttää kaikkien категorioiden julkaisujen "
+"esittelykuvat."

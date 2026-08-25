@@ -1,0 +1,387 @@
+# Copyright (C) 2026 5 Star Plugins
+# This file is distributed under the same license as the Featured Images in RSS for Mailchimp & More plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Featured Images in RSS for Mailchimp & More 1.7.3\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/featured-images-for-rss\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-25T05:52:25+00:00\n"
+"PO-Revision-Date: 2026-08-25 05:53+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: featured-images-for-rss-feeds\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Language: cs-CZ\n"
+
+#: featured_images_in_rss.php
+#. Plugin Name of the plugin
+msgid "Featured Images in RSS for Mailchimp & More"
+msgstr "Doporučené obrázky v RSS pro Mailchimp a další"
+
+#: featured_images_in_rss.php
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/featured-images-for-rss-feeds/"
+msgstr "http://wordpress.org/plugins/featured-images-for-rss-feeds/"
+
+#: featured_images_in_rss.php
+#. Description of the plugin
+msgid ""
+"Outputs images in your RSS feed to Mailchimp, Infusionsoft, Hubspot, and "
+"other services that use RSS feed data for content marketing."
+msgstr ""
+"Zobrazuje obrázky ve vašem RSS kanálu do Mailchimpu, Infusionsoftu, "
+"Hubspotu a dalších služeb, které používají data z RSS kanálu pro obsahový "
+"marketing."
+
+#: featured_images_in_rss.php
+#. Author of the plugin
+msgid "5 Star Plugins"
+msgstr "5 Star Plugins"
+
+#: featured_images_in_rss.php
+#. Author URI of the plugin
+msgid "https://5starplugins.com/"
+msgstr "https://5starplugins.com/"
+
+#: featured_images_in_rss.php:152
+msgid "Featured Images In RSS"
+msgstr "Doporučené obrázky v RSS"
+
+#: featured_images_in_rss.php:185
+msgid "Featured Images in RSS"
+msgstr "Doporučené obrázky v RSS"
+
+#: featured_images_in_rss.php:196
+msgid "RSS image size:"
+msgstr "Velikost obrázku v RSS:"
+
+#: featured_images_in_rss.php:208
+msgid "Width"
+msgstr "Šířka"
+
+#: featured_images_in_rss.php:210
+msgid "Height"
+msgstr "Výška"
+
+#: featured_images_in_rss.php:215
+#, php-format
+msgid ""
+"(Looking for other sizes? Set the size of images for your website globally "
+"using <a href=\"%1$s\" target=\"_blank\">Media Options</a>. Then <a "
+"href=\"%2$s\" target=\"_blank\">Regenerate Thumbnails</a> for it to take "
+"effect.)"
+msgstr ""
+"(Hledáte jiné velikosti? Nastavte globálně velikost obrázků pro svůj web "
+"pomocí <a href=\"%1$s\" target=\"_blank\">Možnosti médií</a>. Poté, aby se "
+"změna projevila, <a href=\"%2$s\" target=\"_blank\">znovu vygenerujte "
+"náhledy</a>.)"
+
+#: featured_images_in_rss.php:221
+msgid "RSS image alignment:"
+msgstr "Zarovnání obrázku v RSS:"
+
+#: featured_images_in_rss.php:224
+msgid "Image Left Above Text"
+msgstr "Obrázek vlevo nad textem"
+
+#: featured_images_in_rss.php:225
+msgid "Image Centered Above Text"
+msgstr "Obrázek na střed nad textem"
+
+#: featured_images_in_rss.php:226
+msgid "Image Left Text Wraps"
+msgstr "Obrázek vlevo s obtékáním textu"
+
+#: featured_images_in_rss.php:227
+msgid "Image Right Text Wraps"
+msgstr "Obrázek vpravo s obtékáním textu"
+
+#: featured_images_in_rss.php:232
+msgid "RSS image to text padding:"
+msgstr "Odsazení obrázku od textu v RSS:"
+
+#: featured_images_in_rss.php:238
+msgid "Clickable images:"
+msgstr "Klikatelné obrázky:"
+
+#: featured_images_in_rss.php:241
+msgid "Select to enable linked images to posts."
+msgstr "Vyberte pro povolení odkazovaných obrázků u příspěvků."
+
+#: featured_images_in_rss.php:242
+msgid "Outputs additional HTML surrounding the image."
+msgstr "Zobrazuje další HTML obklopující obrázek."
+
+#: featured_images_in_rss.php:250
+msgid "Save Changes"
+msgstr "Uložit změny"
+
+#: featured_images_in_rss.php:260
+#, php-format
+msgid ""
+"If you like this plugin, please <a href=\"%s\" target=_blank>Rate and "
+"Review</a> it so others can benefit too."
+msgstr ""
+"Pokud se vám tento plugin líbí, prosím <a href=\"%s\" "
+"target=_blank>ohodnoťte jej a napište recenzi</a>, aby z něj mohli těžit i "
+"ostatní."
+
+#: featured_images_in_rss.php:261
+#, php-format
+msgid ""
+"Still not seeing images in your feed? Verify featured images are set. Clear "
+"your browser and any server caches. Using Feedburner? Be sure to also <a "
+"href=\"%s\" target=_blank>Ping Feedburner</a> so it refreshes your feed."
+msgstr ""
+"Stále nevidíte obrázky ve svém kanálu? Ověřte, že jsou nastaveny doporučené "
+"obrázky. Vymažte mezipaměť prohlížeče i serveru. Používáte Feedburner? "
+"Nezapomeňte také <a href=\"%s\" target=_blank>Pingnout Feedburner</a>, aby "
+"se váš kanál aktualizoval."
+
+#: featured_images_in_rss.php:262
+#, php-format
+msgid ""
+"To view your site’s raw RSS feed, click here: <a href=\"%s/feed/\" "
+"target=_blank>/feed/</a>"
+msgstr ""
+"Chcete-li zobrazit nezpracovaný RSS kanál svého webu, klikněte sem: <a "
+"href=\"%s/feed/\" target=_blank>/feed/</a>"
+
+#: featured_images_in_rss.php:263
+#, php-format
+msgid ""
+"Free and premium FAQ and Support contact form available at <a href=\"%s\" "
+"target=_blank>support.5starplugins.com</a>"
+msgstr ""
+"Bezplatné i prémiové FAQ a kontaktní formulář podpory jsou k dispozici na "
+"<a href=\"%s\" target=_blank>support.5starplugins.com</a>"
+
+#: featured_images_in_rss.php:264
+#, php-format
+msgid ""
+"Developed and supported by <a href=\"%s\" target=_blank>5 Star Plugins</a> "
+"in San Diego, CA"
+msgstr ""
+"Vyvinuto a podporováno společností <a href=\"%s\" target=_blank>5 Star "
+"Plugins</a> v San Diegu, CA"
+
+#: featured_images_in_rss.php:312
+#, php-format
+msgid ""
+"<strong>Enjoying Featured Images In RSS?</strong> Please <a href=\"%s\" "
+"target=\"_blank\">leave a 5-star review</a> to support us! 🙌"
+msgstr ""
+"<strong>Líbí se vám Featured Images In RSS?</strong> Prosím <a href=\"%s\" "
+"target=\"_blank\">zanechte 5hvězdičkové hodnocení</a> a podpořte nás! 🙌"
+
+#: featured_images_in_rss.php:315
+msgid "Remind me later"
+msgstr "Připomeňte mi později"
+
+#: featured_images_in_rss.php:315
+msgid "Dismiss"
+msgstr "Zavřít"
+
+#: featured_images_in_rss.php:331
+msgid "Settings"
+msgstr "Nastavení"
+
+#: featured_images_in_rss.php:342
+msgid "Please rate and review"
+msgstr "Ohodnoťte a napište recenzi"
+
+#: featured_images_in_rss.php:401
+#, php-format
+msgid "Unlock Premium Features%s"
+msgstr "Odemkněte prémiové funkce%s"
+
+#: featured_images_in_rss.php:401
+#: includes/premium/premium.php:195
+msgid "(Free Trial)"
+msgstr "(Bezplatná zkušební verze)"
+
+#: featured_images_in_rss.php:413
+#: featured_images_in_rss.php:443
+msgid "Upgrade Now"
+msgstr "Přejít na vyšší verzi"
+
+#: featured_images_in_rss.php:420
+msgid "14 Day Free Trial"
+msgstr "14denní bezplatná zkušební verze"
+
+#: featured_images_in_rss.php:509
+msgid "Premium Support"
+msgstr "Prémiová podpora"
+
+#: featured_images_in_rss.php:509
+msgid "Get help from WordPress experts based in the US."
+msgstr "Získejte pomoc od expertů na WordPress se sídlem v USA."
+
+#: featured_images_in_rss.php:510
+msgid "Custom Sizing"
+msgstr "Vlastní velikost"
+
+#: featured_images_in_rss.php:510
+msgid "Define your custom image size for RSS feeds."
+msgstr "Definujte vlastní velikost obrázku pro RSS kanály."
+
+#: featured_images_in_rss.php:511
+msgid "Media and Enclosure Tags"
+msgstr "Tagy média a přílohy"
+
+#: featured_images_in_rss.php:511
+msgid "Place images anywhere in email design."
+msgstr "Vkládejte obrázky kamkoli do návrhu e-mailu."
+
+#: featured_images_in_rss.php:512
+msgid "Media Tag Images Only"
+msgstr "Pouze obrázky z mediálních tagů"
+
+#: featured_images_in_rss.php:512
+msgid "Fix duplicate images issues when using media tags."
+msgstr "Opravte problémy s duplicitními obrázky při používání mediálních tagů."
+
+#: featured_images_in_rss.php:513
+msgid "Feature Body Image"
+msgstr "Doporučený obrázek v těle"
+
+#: featured_images_in_rss.php:513
+msgid "Use the first body image in RSS feeds."
+msgstr "Použijte první obrázek v těle v RSS kanálech."
+
+#: featured_images_in_rss.php:514
+msgid "In-Feed Ads"
+msgstr "Reklamy ve feedu"
+
+#: featured_images_in_rss.php:514
+msgid "Insert text or HTML messages, ads, or links in the feed."
+msgstr "Vkládejte do feedu textové nebo HTML zprávy, reklamy nebo odkazy."
+
+#: featured_images_in_rss.php:515
+#: includes/premium/premium.php:256
+msgid "Exclude Categories"
+msgstr "Vyloučit kategorie"
+
+#: featured_images_in_rss.php:515
+msgid "Exclude unwanted RSS content such as the \"Featured\" category."
+msgstr "Vylučte nežádoucí obsah RSS, například kategorii „Doporučené“."
+
+#: featured_images_in_rss.php:516
+msgid "Feed Delay"
+msgstr "Zpoždění feedu"
+
+#: featured_images_in_rss.php:516
+msgid "Time buffer to safeguard mistakes from new posts instantly broadcasting."
+msgstr ""
+"Časová prodleva, která ochrání před chybami, když se nové příspěvky "
+"okamžitě zveřejní."
+
+#: featured_images_in_rss.php:517
+#: includes/premium/premium.php:228
+msgid "Disable Responsive Images"
+msgstr "Zakázat responzivní obrázky"
+
+#: featured_images_in_rss.php:517
+msgid "Fix broken images in certain readers and Mailchimp preview."
+msgstr "Opravte rozbité obrázky v některých čtečkách a v náhledu Mailchimpu."
+
+#: includes/premium/premium.php:129
+msgid "Click to select categories to exclude"
+msgstr "Kliknutím vyberte kategorie k vyloučení"
+
+#: includes/premium/premium.php:195
+#, php-format
+msgid "Premium Features%s"
+msgstr "Prémiové funkce%s"
+
+#: includes/premium/premium.php:198
+msgid "Use first image in body in RSS feed"
+msgstr "Použít první obrázek v těle v RSS feedu"
+
+#: includes/premium/premium.php:201
+msgid "Enable first image"
+msgstr "Povolit první obrázek"
+
+#: includes/premium/premium.php:202
+msgid "Use this option for themes that do not support Featured Images."
+msgstr "Tuto možnost použijte pro šablony, které nepodporují doporučené obrázky."
+
+#: includes/premium/premium.php:207
+msgid "Media Tag"
+msgstr "Mediální tag"
+
+#: includes/premium/premium.php:210
+msgid "Enable media tag images"
+msgstr "Povolit obrázky mediálních tagů"
+
+#: includes/premium/premium.php:211
+msgid "Outputs post thumbnails inside the &lt;media:content ... &gt; tag"
+msgstr "Zobrazí náhledy příspěvků uvnitř značky &lt;media:content ... &gt;"
+
+#: includes/premium/premium.php:214
+msgid "Use only media tag images"
+msgstr "Používat pouze obrázky ze značky media"
+
+#: includes/premium/premium.php:215
+msgid ""
+"If Media Tag is enabled, this can help prevent duplicate images by no "
+"longer prepending the post's featured image in the content/description."
+msgstr ""
+"Je-li povolena značka Media Tag, může to pomoci zabránit duplicitním "
+"obrázkům tím, že se už nebudou do obsahu/popisu přidávat doporučené obrázky "
+"příspěvku."
+
+#: includes/premium/premium.php:220
+msgid "Enclosure Tag"
+msgstr "Značka Enclosure"
+
+#: includes/premium/premium.php:223
+msgid "Enable enclosure tag"
+msgstr "Povolit značku enclosure"
+
+#: includes/premium/premium.php:224
+msgid "Outputs post thumbnails inside &lt;enclosure&gt; tags."
+msgstr "Zobrazí náhledy příspěvků uvnitř značek &lt;enclosure&gt;."
+
+#: includes/premium/premium.php:231
+msgid "Disable responsive images under RSS feeds."
+msgstr "Zakázat responzivní obrázky ve zdrojích RSS."
+
+#: includes/premium/premium.php:235
+msgid "Pre-Feed Content"
+msgstr "Obsah před kanálem"
+
+#: includes/premium/premium.php:238
+#: includes/premium/premium.php:245
+msgid "HTML is allowed. This will display on every post."
+msgstr "HTML je povoleno. Zobrazí se u každého příspěvku."
+
+#: includes/premium/premium.php:242
+msgid "Post-Feed Content"
+msgstr "Obsah za kanálem"
+
+#: includes/premium/premium.php:249
+msgid "Publish Delay"
+msgstr "Zpoždění publikování"
+
+#: includes/premium/premium.php:251
+msgid "minute(s)"
+msgstr "minuta(y)"
+
+#: includes/premium/premium.php:252
+msgid ""
+"Delays the publishing of the feed after post is published. Leave empty to "
+"publish immediately."
+msgstr ""
+"Zpozdí publikování kanálu po zveřejnění příspěvku. Pro okamžité publikování "
+"nechte prázdné."
+
+#: includes/premium/premium.php:259
+msgid "Leave empty to display featured images in posts from all categories."
+msgstr ""
+"Pro zobrazení doporučených obrázků v příspěvcích ze všech kategorií "
+"ponechte prázdné."

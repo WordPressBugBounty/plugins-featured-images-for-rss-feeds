@@ -1,0 +1,393 @@
+# Copyright (C) 2026 5 Star Plugins
+# This file is distributed under the same license as the Featured Images in RSS for Mailchimp & More plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Featured Images in RSS for Mailchimp & More 1.7.3\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/featured-images-for-rss\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-25T05:52:25+00:00\n"
+"PO-Revision-Date: 2026-08-25 05:53+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: featured-images-for-rss-feeds\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: el\n"
+
+#: featured_images_in_rss.php
+#. Plugin Name of the plugin
+msgid "Featured Images in RSS for Mailchimp & More"
+msgstr "Προτεινόμενες εικόνες σε RSS για το Mailchimp & περισσότερα"
+
+#: featured_images_in_rss.php
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/featured-images-for-rss-feeds/"
+msgstr "http://wordpress.org/plugins/featured-images-for-rss-feeds/"
+
+#: featured_images_in_rss.php
+#. Description of the plugin
+msgid ""
+"Outputs images in your RSS feed to Mailchimp, Infusionsoft, Hubspot, and "
+"other services that use RSS feed data for content marketing."
+msgstr ""
+"Εμφανίζει εικόνες στη ροή RSS σας για το Mailchimp, το Infusionsoft, το "
+"Hubspot και άλλες υπηρεσίες που χρησιμοποιούν δεδομένα ροής RSS για content "
+"marketing."
+
+#: featured_images_in_rss.php
+#. Author of the plugin
+msgid "5 Star Plugins"
+msgstr "5 Star Plugins"
+
+#: featured_images_in_rss.php
+#. Author URI of the plugin
+msgid "https://5starplugins.com/"
+msgstr "https://5starplugins.com/"
+
+#: featured_images_in_rss.php:152
+msgid "Featured Images In RSS"
+msgstr "Προτεινόμενες εικόνες στο RSS"
+
+#: featured_images_in_rss.php:185
+msgid "Featured Images in RSS"
+msgstr "Προτεινόμενες εικόνες στο RSS"
+
+#: featured_images_in_rss.php:196
+msgid "RSS image size:"
+msgstr "Μέγεθος εικόνας RSS:"
+
+#: featured_images_in_rss.php:208
+msgid "Width"
+msgstr "Πλάτος"
+
+#: featured_images_in_rss.php:210
+msgid "Height"
+msgstr "Ύψος"
+
+#: featured_images_in_rss.php:215
+#, php-format
+msgid ""
+"(Looking for other sizes? Set the size of images for your website globally "
+"using <a href=\"%1$s\" target=\"_blank\">Media Options</a>. Then <a "
+"href=\"%2$s\" target=\"_blank\">Regenerate Thumbnails</a> for it to take "
+"effect.)"
+msgstr ""
+"(Ψάχνετε για άλλα μεγέθη; Ορίστε το μέγεθος των εικόνων για τον ιστότοπό "
+"σας συνολικά χρησιμοποιώντας <a href=\"%1$s\" target=\"_blank\">Επιλογές "
+"πολυμέσων</a>. Στη συνέχεια <a href=\"%2$s\" "
+"target=\"_blank\">Αναδημιουργήστε μικρογραφίες</a> για να εφαρμοστεί.)"
+
+#: featured_images_in_rss.php:221
+msgid "RSS image alignment:"
+msgstr "Στοίχιση εικόνας RSS:"
+
+#: featured_images_in_rss.php:224
+msgid "Image Left Above Text"
+msgstr "Εικόνα αριστερά, πάνω από το κείμενο"
+
+#: featured_images_in_rss.php:225
+msgid "Image Centered Above Text"
+msgstr "Εικόνα κεντραρισμένη, πάνω από το κείμενο"
+
+#: featured_images_in_rss.php:226
+msgid "Image Left Text Wraps"
+msgstr "Εικόνα αριστερά, το κείμενο αναδιπλώνεται"
+
+#: featured_images_in_rss.php:227
+msgid "Image Right Text Wraps"
+msgstr "Εικόνα δεξιά, το κείμενο αναδιπλώνεται"
+
+#: featured_images_in_rss.php:232
+msgid "RSS image to text padding:"
+msgstr "Απόσταση εικόνας RSS από το κείμενο:"
+
+#: featured_images_in_rss.php:238
+msgid "Clickable images:"
+msgstr "Κλικ σε εικόνες:"
+
+#: featured_images_in_rss.php:241
+msgid "Select to enable linked images to posts."
+msgstr "Επιλέξτε για να ενεργοποιήσετε συνδεδεμένες εικόνες προς τις αναρτήσεις."
+
+#: featured_images_in_rss.php:242
+msgid "Outputs additional HTML surrounding the image."
+msgstr "Εμφανίζει επιπλέον HTML γύρω από την εικόνα."
+
+#: featured_images_in_rss.php:250
+msgid "Save Changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: featured_images_in_rss.php:260
+#, php-format
+msgid ""
+"If you like this plugin, please <a href=\"%s\" target=_blank>Rate and "
+"Review</a> it so others can benefit too."
+msgstr ""
+"Αν σας αρέσει αυτό το πρόσθετο, παρακαλούμε <a href=\"%s\" "
+"target=_blank>βαθμολογήστε το και γράψτε μια κριτική</a> ώστε να "
+"επωφεληθούν και άλλοι."
+
+#: featured_images_in_rss.php:261
+#, php-format
+msgid ""
+"Still not seeing images in your feed? Verify featured images are set. Clear "
+"your browser and any server caches. Using Feedburner? Be sure to also <a "
+"href=\"%s\" target=_blank>Ping Feedburner</a> so it refreshes your feed."
+msgstr ""
+"Ακόμα δεν βλέπετε εικόνες στη ροή σας; Επαληθεύστε ότι έχουν οριστεί οι "
+"προτεινόμενες εικόνες. Καθαρίστε την προσωρινή μνήμη του προγράμματος "
+"περιήγησης και τυχόν cache του διακομιστή. Χρησιμοποιείτε Feedburner; "
+"Φροντίστε επίσης να <a href=\"%s\" target=_blank>Ping το Feedburner</a> "
+"ώστε να ανανεώσει τη ροή σας."
+
+#: featured_images_in_rss.php:262
+#, php-format
+msgid ""
+"To view your site’s raw RSS feed, click here: <a href=\"%s/feed/\" "
+"target=_blank>/feed/</a>"
+msgstr ""
+"Για να δείτε την ακατέργαστη ροή RSS του ιστότοπού σας, κάντε κλικ εδώ: <a "
+"href=\"%s/feed/\" target=_blank>/feed/</a>"
+
+#: featured_images_in_rss.php:263
+#, php-format
+msgid ""
+"Free and premium FAQ and Support contact form available at <a href=\"%s\" "
+"target=_blank>support.5starplugins.com</a>"
+msgstr ""
+"Δωρεάν και premium FAQ και φόρμα επικοινωνίας υποστήριξης διαθέσιμα στο <a "
+"href=\"%s\" target=_blank>support.5starplugins.com</a>"
+
+#: featured_images_in_rss.php:264
+#, php-format
+msgid ""
+"Developed and supported by <a href=\"%s\" target=_blank>5 Star Plugins</a> "
+"in San Diego, CA"
+msgstr ""
+"Αναπτύχθηκε και υποστηρίζεται από την <a href=\"%s\" target=_blank>5 Star "
+"Plugins</a> στο Σαν Ντιέγκο, Καλιφόρνια"
+
+#: featured_images_in_rss.php:312
+#, php-format
+msgid ""
+"<strong>Enjoying Featured Images In RSS?</strong> Please <a href=\"%s\" "
+"target=\"_blank\">leave a 5-star review</a> to support us! 🙌"
+msgstr ""
+"<strong>Σας αρέσουν οι Προτεινόμενες εικόνες στο RSS;</strong> Παρακαλούμε "
+"<a href=\"%s\" target=\"_blank\">αφήστε μια αξιολόγηση 5 αστεριών</a> για "
+"να μας στηρίξετε! 🙌"
+
+#: featured_images_in_rss.php:315
+msgid "Remind me later"
+msgstr "Υπενθύμισέ μου αργότερα"
+
+#: featured_images_in_rss.php:315
+msgid "Dismiss"
+msgstr "Απόρριψη"
+
+#: featured_images_in_rss.php:331
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: featured_images_in_rss.php:342
+msgid "Please rate and review"
+msgstr "Παρακαλούμε αξιολογήστε και γράψτε κριτική"
+
+#: featured_images_in_rss.php:401
+#, php-format
+msgid "Unlock Premium Features%s"
+msgstr "Ξεκλειδώστε τις Premium λειτουργίες%s"
+
+#: featured_images_in_rss.php:401
+#: includes/premium/premium.php:195
+msgid "(Free Trial)"
+msgstr "(Δωρεάν δοκιμή)"
+
+#: featured_images_in_rss.php:413
+#: featured_images_in_rss.php:443
+msgid "Upgrade Now"
+msgstr "Αναβαθμίστε τώρα"
+
+#: featured_images_in_rss.php:420
+msgid "14 Day Free Trial"
+msgstr "Δωρεάν δοκιμή 14 ημερών"
+
+#: featured_images_in_rss.php:509
+msgid "Premium Support"
+msgstr "Premium υποστήριξη"
+
+#: featured_images_in_rss.php:509
+msgid "Get help from WordPress experts based in the US."
+msgstr "Λάβετε βοήθεια από ειδικούς του WordPress με έδρα τις ΗΠΑ."
+
+#: featured_images_in_rss.php:510
+msgid "Custom Sizing"
+msgstr "Προσαρμοσμένο μέγεθος"
+
+#: featured_images_in_rss.php:510
+msgid "Define your custom image size for RSS feeds."
+msgstr "Ορίστε το προσαρμοσμένο μέγεθος εικόνας σας για τις ροές RSS."
+
+#: featured_images_in_rss.php:511
+msgid "Media and Enclosure Tags"
+msgstr "Ετικέτες πολυμέσων και επισύναψης"
+
+#: featured_images_in_rss.php:511
+msgid "Place images anywhere in email design."
+msgstr "Τοποθετήστε εικόνες οπουδήποτε στον σχεδιασμό email."
+
+#: featured_images_in_rss.php:512
+msgid "Media Tag Images Only"
+msgstr "Μόνο εικόνες από ετικέτες πολυμέσων"
+
+#: featured_images_in_rss.php:512
+msgid "Fix duplicate images issues when using media tags."
+msgstr "Διορθώστε προβλήματα με διπλές εικόνες κατά τη χρήση ετικετών πολυμέσων."
+
+#: featured_images_in_rss.php:513
+msgid "Feature Body Image"
+msgstr "Εικόνα κύριου σώματος"
+
+#: featured_images_in_rss.php:513
+msgid "Use the first body image in RSS feeds."
+msgstr "Χρησιμοποιήστε την πρώτη εικόνα στο σώμα στις ροές RSS."
+
+#: featured_images_in_rss.php:514
+msgid "In-Feed Ads"
+msgstr "Διαφημίσεις εντός ροής"
+
+#: featured_images_in_rss.php:514
+msgid "Insert text or HTML messages, ads, or links in the feed."
+msgstr "Εισαγάγετε μηνύματα κειμένου ή HTML, διαφημίσεις ή συνδέσμους στη ροή."
+
+#: featured_images_in_rss.php:515
+#: includes/premium/premium.php:256
+msgid "Exclude Categories"
+msgstr "Εξαίρεση κατηγοριών"
+
+#: featured_images_in_rss.php:515
+msgid "Exclude unwanted RSS content such as the \"Featured\" category."
+msgstr "Εξαιρέστε ανεπιθύμητο περιεχόμενο RSS, όπως την κατηγορία \"Προτεινόμενα\"."
+
+#: featured_images_in_rss.php:516
+msgid "Feed Delay"
+msgstr "Καθυστέρηση ροής"
+
+#: featured_images_in_rss.php:516
+msgid "Time buffer to safeguard mistakes from new posts instantly broadcasting."
+msgstr ""
+"Χρονικό περιθώριο για την αποφυγή λαθών από νέες δημοσιεύσεις που "
+"μεταδίδονται αμέσως."
+
+#: featured_images_in_rss.php:517
+#: includes/premium/premium.php:228
+msgid "Disable Responsive Images"
+msgstr "Απενεργοποίηση προσαρμοστικών εικόνων"
+
+#: featured_images_in_rss.php:517
+msgid "Fix broken images in certain readers and Mailchimp preview."
+msgstr ""
+"Διορθώστε χαλασμένες εικόνες σε ορισμένους αναγνώστες και στην "
+"προεπισκόπηση του Mailchimp."
+
+#: includes/premium/premium.php:129
+msgid "Click to select categories to exclude"
+msgstr "Κάντε κλικ για να επιλέξετε κατηγορίες προς εξαίρεση"
+
+#: includes/premium/premium.php:195
+#, php-format
+msgid "Premium Features%s"
+msgstr "Premium λειτουργίες%s"
+
+#: includes/premium/premium.php:198
+msgid "Use first image in body in RSS feed"
+msgstr "Χρησιμοποιήστε την πρώτη εικόνα στο σώμα στη ροή RSS"
+
+#: includes/premium/premium.php:201
+msgid "Enable first image"
+msgstr "Ενεργοποίηση πρώτης εικόνας"
+
+#: includes/premium/premium.php:202
+msgid "Use this option for themes that do not support Featured Images."
+msgstr ""
+"Χρησιμοποιήστε αυτήν την επιλογή για θέματα που δεν υποστηρίζουν "
+"προβαλλόμενες εικόνες."
+
+#: includes/premium/premium.php:207
+msgid "Media Tag"
+msgstr "Ετικέτα πολυμέσων"
+
+#: includes/premium/premium.php:210
+msgid "Enable media tag images"
+msgstr "Ενεργοποίηση εικόνων ετικέτας πολυμέσων"
+
+#: includes/premium/premium.php:211
+msgid "Outputs post thumbnails inside the &lt;media:content ... &gt; tag"
+msgstr "Εξάγει μικρογραφίες αναρτήσεων μέσα στην ετικέτα &lt;media:content ... &gt;"
+
+#: includes/premium/premium.php:214
+msgid "Use only media tag images"
+msgstr "Χρησιμοποιήστε μόνο εικόνες ετικέτας media"
+
+#: includes/premium/premium.php:215
+msgid ""
+"If Media Tag is enabled, this can help prevent duplicate images by no "
+"longer prepending the post's featured image in the content/description."
+msgstr ""
+"Αν η Ετικέτα Media είναι ενεργοποιημένη, αυτό μπορεί να βοηθήσει στην "
+"αποφυγή διπλών εικόνων, καθώς δεν θα προστίθεται πλέον η επιλεγμένη εικόνα "
+"της ανάρτησης πριν από το περιεχόμενο/την περιγραφή."
+
+#: includes/premium/premium.php:220
+msgid "Enclosure Tag"
+msgstr "Ετικέτα Enclosure"
+
+#: includes/premium/premium.php:223
+msgid "Enable enclosure tag"
+msgstr "Ενεργοποίηση ετικέτας enclosure"
+
+#: includes/premium/premium.php:224
+msgid "Outputs post thumbnails inside &lt;enclosure&gt; tags."
+msgstr "Εξάγει μικρογραφίες αναρτήσεων μέσα στις ετικέτες &lt;enclosure&gt;."
+
+#: includes/premium/premium.php:231
+msgid "Disable responsive images under RSS feeds."
+msgstr "Απενεργοποίηση responsive εικόνων στις ροές RSS."
+
+#: includes/premium/premium.php:235
+msgid "Pre-Feed Content"
+msgstr "Περιεχόμενο πριν από τη ροή"
+
+#: includes/premium/premium.php:238
+#: includes/premium/premium.php:245
+msgid "HTML is allowed. This will display on every post."
+msgstr "Επιτρέπεται HTML. Αυτό θα εμφανίζεται σε κάθε ανάρτηση."
+
+#: includes/premium/premium.php:242
+msgid "Post-Feed Content"
+msgstr "Περιεχόμενο μετά τη ροή"
+
+#: includes/premium/premium.php:249
+msgid "Publish Delay"
+msgstr "Καθυστέρηση δημοσίευσης"
+
+#: includes/premium/premium.php:251
+msgid "minute(s)"
+msgstr "λεπτό(ά)"
+
+#: includes/premium/premium.php:252
+msgid ""
+"Delays the publishing of the feed after post is published. Leave empty to "
+"publish immediately."
+msgstr ""
+"Καθυστερεί τη δημοσίευση της ροής μετά τη δημοσίευση της ανάρτησης. Αφήστε "
+"το κενό για άμεση δημοσίευση."
+
+#: includes/premium/premium.php:259
+msgid "Leave empty to display featured images in posts from all categories."
+msgstr ""
+"Αφήστε το κενό για να εμφανίζονται οι επιλεγμένες εικόνες σε αναρτήσεις από "
+"όλες τις κατηγορίες."

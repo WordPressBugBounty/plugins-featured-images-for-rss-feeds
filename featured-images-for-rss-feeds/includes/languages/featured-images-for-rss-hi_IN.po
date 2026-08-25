@@ -1,0 +1,386 @@
+# Copyright (C) 2026 5 Star Plugins
+# This file is distributed under the same license as the Featured Images in RSS for Mailchimp & More plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Featured Images in RSS for Mailchimp & More 1.7.3\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/featured-images-for-rss\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-25T05:52:25+00:00\n"
+"PO-Revision-Date: 2026-08-25 05:53+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: featured-images-for-rss-feeds\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: hi-IN\n"
+
+#: featured_images_in_rss.php
+#. Plugin Name of the plugin
+msgid "Featured Images in RSS for Mailchimp & More"
+msgstr "मेलचिम्प और अधिक के लिए RSS में फ़ीचर्ड इमेजेज़"
+
+#: featured_images_in_rss.php
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/featured-images-for-rss-feeds/"
+msgstr "http://wordpress.org/plugins/featured-images-for-rss-feeds/"
+
+#: featured_images_in_rss.php
+#. Description of the plugin
+msgid ""
+"Outputs images in your RSS feed to Mailchimp, Infusionsoft, Hubspot, and "
+"other services that use RSS feed data for content marketing."
+msgstr ""
+"आपके RSS फ़ीड में छवियाँ Mailchimp, Infusionsoft, Hubspot, और अन्य सेवाओं "
+"में आउटपुट करता है जो सामग्री मार्केटिंग के लिए RSS फ़ीड डेटा का उपयोग करती "
+"हैं।"
+
+#: featured_images_in_rss.php
+#. Author of the plugin
+msgid "5 Star Plugins"
+msgstr "5 स्टार प्लगइन्स"
+
+#: featured_images_in_rss.php
+#. Author URI of the plugin
+msgid "https://5starplugins.com/"
+msgstr "https://5starplugins.com/"
+
+#: featured_images_in_rss.php:152
+msgid "Featured Images In RSS"
+msgstr "RSS में फ़ीचर्ड इमेजेज़"
+
+#: featured_images_in_rss.php:185
+msgid "Featured Images in RSS"
+msgstr "RSS में फ़ीचर्ड इमेजेज़"
+
+#: featured_images_in_rss.php:196
+msgid "RSS image size:"
+msgstr "RSS छवि आकार:"
+
+#: featured_images_in_rss.php:208
+msgid "Width"
+msgstr "चौड़ाई"
+
+#: featured_images_in_rss.php:210
+msgid "Height"
+msgstr "ऊँचाई"
+
+#: featured_images_in_rss.php:215
+#, php-format
+msgid ""
+"(Looking for other sizes? Set the size of images for your website globally "
+"using <a href=\"%1$s\" target=\"_blank\">Media Options</a>. Then <a "
+"href=\"%2$s\" target=\"_blank\">Regenerate Thumbnails</a> for it to take "
+"effect.)"
+msgstr ""
+"(अन्य आकार ढूँढ रहे हैं? अपनी वेबसाइट के लिए वैश्विक रूप से छवियों का आकार "
+"<a href=\"%1$s\" target=\"_blank\">मीडिया विकल्प</a> का उपयोग करके सेट "
+"करें। फिर प्रभावी होने के लिए <a href=\"%2$s\" target=\"_blank\">थंबनेल "
+"पुनः जनरेट करें</a>.)"
+
+#: featured_images_in_rss.php:221
+msgid "RSS image alignment:"
+msgstr "RSS छवि संरेखण:"
+
+#: featured_images_in_rss.php:224
+msgid "Image Left Above Text"
+msgstr "छवि बाएँ, पाठ के ऊपर"
+
+#: featured_images_in_rss.php:225
+msgid "Image Centered Above Text"
+msgstr "छवि केंद्र में, पाठ के ऊपर"
+
+#: featured_images_in_rss.php:226
+msgid "Image Left Text Wraps"
+msgstr "छवि बाएँ, पाठ लपेटता है"
+
+#: featured_images_in_rss.php:227
+msgid "Image Right Text Wraps"
+msgstr "छवि दाएँ, पाठ लपेटता है"
+
+#: featured_images_in_rss.php:232
+msgid "RSS image to text padding:"
+msgstr "RSS छवि से पाठ की पैडिंग:"
+
+#: featured_images_in_rss.php:238
+msgid "Clickable images:"
+msgstr "क्लिक करने योग्य छवियाँ:"
+
+#: featured_images_in_rss.php:241
+msgid "Select to enable linked images to posts."
+msgstr "पोस्टों के लिए लिंक की गई छवियाँ सक्षम करने हेतु चुनें।"
+
+#: featured_images_in_rss.php:242
+msgid "Outputs additional HTML surrounding the image."
+msgstr "छवि के चारों ओर अतिरिक्त HTML आउटपुट करता है।"
+
+#: featured_images_in_rss.php:250
+msgid "Save Changes"
+msgstr "परिवर्तन सहेजें"
+
+#: featured_images_in_rss.php:260
+#, php-format
+msgid ""
+"If you like this plugin, please <a href=\"%s\" target=_blank>Rate and "
+"Review</a> it so others can benefit too."
+msgstr ""
+"यदि आपको यह प्लगइन पसंद है, तो कृपया दूसरों को भी लाभ मिले इसलिए इसे <a "
+"href=\"%s\" target=_blank>रेट और समीक्षा</a> करें।"
+
+#: featured_images_in_rss.php:261
+#, php-format
+msgid ""
+"Still not seeing images in your feed? Verify featured images are set. Clear "
+"your browser and any server caches. Using Feedburner? Be sure to also <a "
+"href=\"%s\" target=_blank>Ping Feedburner</a> so it refreshes your feed."
+msgstr ""
+"क्या अभी भी आपके फ़ीड में छवियाँ नहीं दिख रही हैं? सुनिश्चित करें कि "
+"फ़ीचर्ड इमेजेज़ सेट हैं। अपने ब्राउज़र और किसी भी सर्वर कैश को साफ़ करें। "
+"Feedburner उपयोग कर रहे हैं? यह भी सुनिश्चित करें कि आप <a href=\"%s\" "
+"target=_blank>Ping Feedburner</a> करें ताकि यह आपका फ़ीड रीफ़्रेश करे।"
+
+#: featured_images_in_rss.php:262
+#, php-format
+msgid ""
+"To view your site’s raw RSS feed, click here: <a href=\"%s/feed/\" "
+"target=_blank>/feed/</a>"
+msgstr ""
+"अपनी साइट का कच्चा RSS फ़ीड देखने के लिए, यहाँ क्लिक करें: <a "
+"href=\"%s/feed/\" target=_blank>/feed/</a>"
+
+#: featured_images_in_rss.php:263
+#, php-format
+msgid ""
+"Free and premium FAQ and Support contact form available at <a href=\"%s\" "
+"target=_blank>support.5starplugins.com</a>"
+msgstr ""
+"निःशुल्क और प्रीमियम FAQ तथा सहायता संपर्क फ़ॉर्म यहाँ उपलब्ध है: <a "
+"href=\"%s\" target=_blank>support.5starplugins.com</a>"
+
+#: featured_images_in_rss.php:264
+#, php-format
+msgid ""
+"Developed and supported by <a href=\"%s\" target=_blank>5 Star Plugins</a> "
+"in San Diego, CA"
+msgstr ""
+"सैन डिएगो, CA में <a href=\"%s\" target=_blank>5 स्टार प्लगइन्स</a> द्वारा "
+"विकसित और समर्थित"
+
+#: featured_images_in_rss.php:312
+#, php-format
+msgid ""
+"<strong>Enjoying Featured Images In RSS?</strong> Please <a href=\"%s\" "
+"target=\"_blank\">leave a 5-star review</a> to support us! 🙌"
+msgstr ""
+"<strong>RSS में फ़ीचर्ड इमेजेज़ का आनंद ले रहे हैं?</strong> कृपया हमारा "
+"समर्थन करने के लिए <a href=\"%s\" target=\"_blank\">5-स्टार समीक्षा "
+"छोड़ें</a>! 🙌"
+
+#: featured_images_in_rss.php:315
+msgid "Remind me later"
+msgstr "मुझे बाद में याद दिलाएँ"
+
+#: featured_images_in_rss.php:315
+msgid "Dismiss"
+msgstr "खारिज करें"
+
+#: featured_images_in_rss.php:331
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: featured_images_in_rss.php:342
+msgid "Please rate and review"
+msgstr "कृपया रेट करें और समीक्षा लिखें"
+
+#: featured_images_in_rss.php:401
+#, php-format
+msgid "Unlock Premium Features%s"
+msgstr "प्रीमियम सुविधाएँ अनलॉक करें%s"
+
+#: featured_images_in_rss.php:401
+#: includes/premium/premium.php:195
+msgid "(Free Trial)"
+msgstr "(निःशुल्क परीक्षण)"
+
+#: featured_images_in_rss.php:413
+#: featured_images_in_rss.php:443
+msgid "Upgrade Now"
+msgstr "अभी अपग्रेड करें"
+
+#: featured_images_in_rss.php:420
+msgid "14 Day Free Trial"
+msgstr "14 दिन का निःशुल्क परीक्षण"
+
+#: featured_images_in_rss.php:509
+msgid "Premium Support"
+msgstr "प्रीमियम सहायता"
+
+#: featured_images_in_rss.php:509
+msgid "Get help from WordPress experts based in the US."
+msgstr "अमेरिका-आधारित वर्डप्रेस विशेषज्ञों से मदद प्राप्त करें।"
+
+#: featured_images_in_rss.php:510
+msgid "Custom Sizing"
+msgstr "कस्टम आकार निर्धारण"
+
+#: featured_images_in_rss.php:510
+msgid "Define your custom image size for RSS feeds."
+msgstr "RSS फ़ीड्स के लिए अपनी कस्टम छवि का आकार निर्धारित करें।"
+
+#: featured_images_in_rss.php:511
+msgid "Media and Enclosure Tags"
+msgstr "मीडिया और एनक्लोज़र टैग"
+
+#: featured_images_in_rss.php:511
+msgid "Place images anywhere in email design."
+msgstr "ईमेल डिज़ाइन में कहीं भी छवियाँ रखें।"
+
+#: featured_images_in_rss.php:512
+msgid "Media Tag Images Only"
+msgstr "केवल मीडिया टैग छवियाँ"
+
+#: featured_images_in_rss.php:512
+msgid "Fix duplicate images issues when using media tags."
+msgstr "मीडिया टैग का उपयोग करते समय डुप्लिकेट छवियों की समस्या ठीक करें।"
+
+#: featured_images_in_rss.php:513
+msgid "Feature Body Image"
+msgstr "फ़ीचर बॉडी इमेज"
+
+#: featured_images_in_rss.php:513
+msgid "Use the first body image in RSS feeds."
+msgstr "RSS फ़ीड्स में पहली बॉडी इमेज का उपयोग करें।"
+
+#: featured_images_in_rss.php:514
+msgid "In-Feed Ads"
+msgstr "फ़ीड में विज्ञापन"
+
+#: featured_images_in_rss.php:514
+msgid "Insert text or HTML messages, ads, or links in the feed."
+msgstr "फ़ीड में टेक्स्ट या HTML संदेश, विज्ञापन, या लिंक डालें।"
+
+#: featured_images_in_rss.php:515
+#: includes/premium/premium.php:256
+msgid "Exclude Categories"
+msgstr "श्रेणियाँ बाहर करें"
+
+#: featured_images_in_rss.php:515
+msgid "Exclude unwanted RSS content such as the \"Featured\" category."
+msgstr "अनचाही RSS सामग्री, जैसे \"Featured\" श्रेणी, को बाहर करें।"
+
+#: featured_images_in_rss.php:516
+msgid "Feed Delay"
+msgstr "फ़ीड विलंब"
+
+#: featured_images_in_rss.php:516
+msgid "Time buffer to safeguard mistakes from new posts instantly broadcasting."
+msgstr ""
+"नई पोस्टों के तुरंत प्रसारण से होने वाली गलतियों को सुरक्षित रखने के लिए "
+"समय बफ़र।"
+
+#: featured_images_in_rss.php:517
+#: includes/premium/premium.php:228
+msgid "Disable Responsive Images"
+msgstr "रेस्पॉन्सिव छवियाँ अक्षम करें"
+
+#: featured_images_in_rss.php:517
+msgid "Fix broken images in certain readers and Mailchimp preview."
+msgstr "कुछ रीडर्स और Mailchimp प्रीव्यू में टूटी हुई छवियों को ठीक करें।"
+
+#: includes/premium/premium.php:129
+msgid "Click to select categories to exclude"
+msgstr "बाहर करने के लिए श्रेणियाँ चुनने हेतु क्लिक करें"
+
+#: includes/premium/premium.php:195
+#, php-format
+msgid "Premium Features%s"
+msgstr "प्रीमियम सुविधाएँ%s"
+
+#: includes/premium/premium.php:198
+msgid "Use first image in body in RSS feed"
+msgstr "RSS फ़ीड में बॉडी की पहली छवि का उपयोग करें"
+
+#: includes/premium/premium.php:201
+msgid "Enable first image"
+msgstr "पहली छवि सक्षम करें"
+
+#: includes/premium/premium.php:202
+msgid "Use this option for themes that do not support Featured Images."
+msgstr ""
+"इस विकल्प का उपयोग उन थीम्स के लिए करें जो Featured Images का समर्थन नहीं "
+"करतीं।"
+
+#: includes/premium/premium.php:207
+msgid "Media Tag"
+msgstr "मीडिया टैग"
+
+#: includes/premium/premium.php:210
+msgid "Enable media tag images"
+msgstr "मीडिया टैग छवियाँ सक्षम करें"
+
+#: includes/premium/premium.php:211
+msgid "Outputs post thumbnails inside the &lt;media:content ... &gt; tag"
+msgstr "पोस्ट थंबनेल को &lt;media:content ... &gt; टैग के अंदर आउटपुट करता है"
+
+#: includes/premium/premium.php:214
+msgid "Use only media tag images"
+msgstr "केवल मीडिया टैग इमेज का उपयोग करें"
+
+#: includes/premium/premium.php:215
+msgid ""
+"If Media Tag is enabled, this can help prevent duplicate images by no "
+"longer prepending the post's featured image in the content/description."
+msgstr ""
+"यदि मीडिया टैग सक्षम है, तो यह सामग्री/विवरण में पोस्ट की फीचर्ड इमेज को "
+"आगे जोड़ना बंद करके डुप्लिकेट इमेज को रोकने में मदद कर सकता है।"
+
+#: includes/premium/premium.php:220
+msgid "Enclosure Tag"
+msgstr "एनक्लोज़र टैग"
+
+#: includes/premium/premium.php:223
+msgid "Enable enclosure tag"
+msgstr "एनक्लोज़र टैग सक्षम करें"
+
+#: includes/premium/premium.php:224
+msgid "Outputs post thumbnails inside &lt;enclosure&gt; tags."
+msgstr "पोस्ट थंबनेल को &lt;enclosure&gt; टैग के अंदर आउटपुट करता है।"
+
+#: includes/premium/premium.php:231
+msgid "Disable responsive images under RSS feeds."
+msgstr "RSS फ़ीड्स के तहत रिस्पॉन्सिव इमेज को अक्षम करें।"
+
+#: includes/premium/premium.php:235
+msgid "Pre-Feed Content"
+msgstr "फ़ीड से पहले की सामग्री"
+
+#: includes/premium/premium.php:238
+#: includes/premium/premium.php:245
+msgid "HTML is allowed. This will display on every post."
+msgstr "HTML की अनुमति है। यह हर पोस्ट पर प्रदर्शित होगा।"
+
+#: includes/premium/premium.php:242
+msgid "Post-Feed Content"
+msgstr "फ़ीड के बाद की सामग्री"
+
+#: includes/premium/premium.php:249
+msgid "Publish Delay"
+msgstr "प्रकाशन विलंब"
+
+#: includes/premium/premium.php:251
+msgid "minute(s)"
+msgstr "मिनट(मिनट)"
+
+#: includes/premium/premium.php:252
+msgid ""
+"Delays the publishing of the feed after post is published. Leave empty to "
+"publish immediately."
+msgstr ""
+"पोस्ट प्रकाशित होने के बाद फ़ीड के प्रकाशन में देरी करता है। तुरंत प्रकाशित "
+"करने के लिए खाली छोड़ दें।"
+
+#: includes/premium/premium.php:259
+msgid "Leave empty to display featured images in posts from all categories."
+msgstr "सभी श्रेणियों की पोस्ट में फीचर्ड इमेज दिखाने के लिए खाली छोड़ दें।"
