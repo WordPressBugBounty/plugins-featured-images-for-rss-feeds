@@ -5,7 +5,7 @@ Tags: featured images in rss, rss images, mailchimp, rss campaigns, content mark
 Requires at least: 2.9
 Tested up to: 7.1
 Requires PHP: 5.6
-Stable tag: 1.7.3
+Stable tag: 1.7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -185,9 +185,8 @@ Please submit a [rating and review](https://wordpress.org/support/plugin/feature
 
 (Have an issue? Post to the support forums before leaving a poor review.)
 
-= How can I report security issues? =
-
-You can report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team help validate, triage and handle any security vulnerabilities. [Report a security vulnerability.](https://patchstack.com/database/wordpress/plugin/featured-images-for-rss-feeds/vdp)
+= Where do I report security bugs found in this plugin? =
+Please report security bugs found in the source code of the Featured Images in RSS for Mailchimp & More plugin through the [Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/9e5fb791-42d1-430f-b869-de1a4bc5a586). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
 
 == Screenshots ==
 1. An example RSS feed with images included to the left with the text wrapping to the right, medium sized.
@@ -196,9 +195,12 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 4. A sad example of a plain RSS feed with no images, because they aren't using this plugin. Don't have sad RSS feeds, use this plugin!
 
 == Upgrade Notice ==
-* Please update! v1.7.3: Updated WordPress tested compatibility to 7.1 and updated Freemius SDK to v2.13.4.
+* Please update! v1.7.4: Updated Freemius SDK to v2.13.5.
 
 == Changelog ==
+= 1.7.4 =
+* Updated Freemius SDK to v2.13.5.
+
 = 1.7.3 =
 * Updated WordPress tested compatibility to 7.1.
 * Updated Freemius SDK to v2.13.4.
